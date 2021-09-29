@@ -70,7 +70,7 @@ const App = () => {
       <form onSubmit={handleSubmit}>
         {alert.show && <Alert {...alert} removeAlert={showAlert} list={list} />}
         <h3 style={{ marginBottom: "1.5rem", textAlign: "center" }}>
-          ToDo List LocalStorage
+          ToDo List By Deepak kushwaha
         </h3>
       
 
@@ -79,7 +79,7 @@ const App = () => {
             placeholder="e.g. Name" onChange={(e) => setName(e.target.value)}
             value={name} /><br/>
 
-          <button type="submit" className="btn btn-success">
+          <button type="submit" className="btn btn-primary">
             {isEditing ? "Edit" : "Submit"}
           </button>
         </div>
